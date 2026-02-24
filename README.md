@@ -1,5 +1,7 @@
 # CPU Temperature Monitor for Ubuntu/Mint
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Simple script that logs CPU temperatures every second to daily CSV files, detects high temps (>70°C) and logs the top CPU-consuming process.
 
 ## Requirements
