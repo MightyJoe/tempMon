@@ -23,11 +23,13 @@ but the main thing is that psutils is required for the main script. And we are u
 venv stands for virtual evnironment. That way, the reqs are not installed system-wide.
 You can try this at your own peril:
 ```bash
-# Recommended: create virtual environment
+# Create virtual environment
 python3 -m venv venv
-# start virutal environment (should show in prompt after)
+
+# Start virutal environment (should show in prompt after)
 source venv/bin/activate
-# install dependencies inside the virtual environment
+
+# Install dependencies inside the virtual environment
 pip install -r requirements.txt
 
 ```
