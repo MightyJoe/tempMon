@@ -1,4 +1,4 @@
-# CPU Temperature Monitor
+# CPU Temperature Monitor for Ubuntu/Mint
 
 Simple script that logs CPU temperatures every second to daily CSV files, detects high temps (>70°C) and logs the top CPU-consuming process.
 
