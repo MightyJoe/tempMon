@@ -6,15 +6,19 @@
 [![pandas (optional)](https://img.shields.io/badge/pandas-optional-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![matplotlib (optional)](https://img.shields.io/badge/matplotlib-optional-blueviolet?logo=matplotlib&logoColor=white)](https://matplotlib.org/)
 
-Simple script that logs CPU temperatures every second to daily CSV files, detects high temps (>70°C) and logs the top CPU-consuming process.
+- Script that logs to csv every second when temps are high.
+- If temps are too high, logs the process that is taking the highest cpu percent.
+- Not always spot-on, but gives an idea what processes are pegged when temps remain high for a few seconds.
+- Ability to output a graph to png, but graphing sucks right now.
 
 ## Requirements
 
-Python 3.8+
+- Python 3.8+
+- Python's psutil
 
 ## Installation
 
-This is still hazy on how to install. For now, you may need to fiddle with dependencies,
+Installation is not well tested. For now, you may need to fiddle with dependencies,
 but the main thing is that psutils is required for the main script. And we are using venv.
 venv stands for virtual evnironment. That way, the reqs are not installed system-wide.
 You can try this at your own peril:
