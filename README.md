@@ -23,7 +23,7 @@ You can try this at your own peril:
 python3 -m venv venv
 # start virutal environment (should show in prompt after)
 source venv/bin/activate
-# install these dependencies inside the virtual environment
+# install dependencies inside the virtual environment
 pip install -r requirements.txt
 
 ```
