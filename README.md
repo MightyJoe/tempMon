@@ -33,17 +33,24 @@ pip install -r requirements.txt
 ```
 
 ## Installation of Service (in case you want it to always run)
+```bash
+# Change the content of the .service file to point at real folder paths to files that actually exist.
 
-Change the content of the .service file to point at real folder paths to files that actually exist.
+# Create a service file:
+sudo nano /etc/systemd/system/cpu-monitor.service with the content from the .service file
 
-Create a service file: sudo nano /etc/systemd/system/cpu-monitor.service with the content from the .service file
+# Reload systemd:
+sudo systemctl daemon-reload
 
-Reload systemd: sudo systemctl daemon-reload
+# Start the service:
+sudo systemctl start cpu-monitor
 
-Start: sudo systemctl start cpu-monitor
+# Enable on boot (if you always want it running):
+sudo systemctl enable cpu-monitor
 
-Enable on boot: sudo systemctl enable cpu-monitor
+# Check logs and also if it is running:
+journalctl -u cpu-monitor -f
 
-Check logs: journalctl -u cpu-monitor -f
-
-Stop: sudo systemctl stop cpu-monitor
+# Stop the service (if you want to later):
+sudo systemctl stop cpu-monitor
+```
