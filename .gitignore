@@ -1,3 +1,9 @@
+# log output files are ignored
+*.csv
+
+# generated graph images are ignored
+*.png
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
