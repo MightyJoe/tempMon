@@ -35,8 +35,9 @@ pip install -r requirements.txt
 ```
 
 ## Installation of Service (in case you want it to always run)
+- Change the content of the .service file to point at real folder paths to files that actually exist.
 ```bash
-# Change the content of the .service file to point at real folder paths to files that actually exist.
+# Ensure you changed the content of the .service file to point at real folder paths to files that actually exist.
 
 # Create a service file:
 sudo nano /etc/systemd/system/cpu-monitor.service with the content from the .service file
