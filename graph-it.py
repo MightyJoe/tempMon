@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import datetime
 
-# Optional: force interactive backend if you want pop-up
+# This script still sucks for commenting.
 # import matplotlib
 # matplotlib.use('Qt5Agg')  # uncomment if you installed pyqt5 and want window
 
