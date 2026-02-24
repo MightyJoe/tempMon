@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![psutil](https://img.shields.io/badge/psutil-powered%20by%20python-3776AB?logo=python&logoColor=white)](https://pypi.org/project/psutil/)
 [![pandas (optional)](https://img.shields.io/badge/pandas-optional-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
-[![matplotlib (optional)](https://img.shields.io/badge/matplotlib-optional-blueviolet?logo=matplotlib&logoColor=white)](https://matplotlib.org/)
+[![matplotlib (optional)](https://img.shields.io/badge/matplotlib-%E2%89%A53.7%20(optional)-blueviolet?logo=matplotlib&logoColor=white)](https://matplotlib.org/)
 
 Simple script that logs CPU temperatures every second to daily CSV files, detects high temps (>70°C) and logs the top CPU-consuming process.
 
