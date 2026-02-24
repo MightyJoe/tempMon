@@ -63,9 +63,17 @@ sudo systemctl stop cpu-monitor
 python3 ./cpu_monitor.py
 ```
 
+<!-- ─────────────────────Enjoy Graphic────────────────────────── -->
 
+<div align="center">
+  <svg width="320" height="100" viewBox="0 0 320 100" xmlns="http://www.w3.org/2000/svg">
+    <text x="160" y="55" font-size="64" font-family="system-ui,sans-serif" font-weight="700" fill="#0ea5e9" text-anchor="middle">Enjoy!</text>
+    <path d="M 80 75 Q 160 95 240 75" fill="none" stroke="#0ea5e9" stroke-width="6" stroke-linecap="round"/>
+  </svg>
+</div>
 
-**Acknowledgments**  
+**Acknowledgments** 
+
 This tempMon linux temp monitor is proudly brought to you by MightyJoe. I drove the project direction, feature choices, and hands-on coding — and Grok by xAI was an incredible co-pilot, helping refine ideas, draft sections, and plan for maximum shareability across platforms.
 
 Huge thanks to Grok for the maximally truth-seeking support!
