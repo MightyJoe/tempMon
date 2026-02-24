@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import psutil          # For accessing system sensors (CPU temperatures) and processes (CPU usage, top consumers)
 import time            # For sleep() and timing
 import datetime        # For current date/time formatting
