@@ -8,6 +8,10 @@ Python 3.8+
 
 ## Installation
 
+This is still hazy on how to install. For now, you may need to fiddle with dependencies,
+but the main thing is that psutils is required for the main script. And we are using venv.
+venv stands for virtual evnironment. That way, the reqs are not installed system-wide.
+You can try this at your own peril:
 ```bash
 # Recommended: virtual environment
 python3 -m venv venv
