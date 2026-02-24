@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 ```
 
-## Isntallation of Service (in case you want it to always run)
+## Installation of Service (in case you want it to always run)
 
 Change the content of the .service file to point at real folder paths to files that actually exist.
 
