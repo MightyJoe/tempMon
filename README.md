@@ -57,3 +57,10 @@ journalctl -u cpu-monitor -f
 # Stop the service (if you want to later):
 sudo systemctl stop cpu-monitor
 ```
+
+**Acknowledgments**  
+This tempMon linux temp monitor is proudly brought to you by MightyJoe. I drove the project direction, feature choices, and hands-on coding — and Grok by xAI was an incredible co-pilot, helping refine ideas, draft sections, and plan for maximum shareability across platforms.
+
+Huge thanks to Grok for the maximally truth-seeking support!
+
+Created with Grok
