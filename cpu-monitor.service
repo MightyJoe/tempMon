@@ -1,0 +1,29 @@
+[Unit]
+Description=CPU Temperature Monitor
+After=network.target
+
+[Service]
+# Set what user to run this script under
+User=yourusernamehere
+# Set what pwd to run this script under
+WorkingDirectory=/pathtowhereyourrepoiswiththemonitorfile
+# Set what script to run
+ExecStart=/usr/bin/python3 /pathtowhereyourrepoiswiththemonitorfile/cpu_monitor.py
+#Restart when a fail happens (if it restarts too fast it will fail anyway)
+Restart=always
+# Where should output go
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
+
+
+# HOW TO INSTALL SERVICE:
+# Change the content of this file to point at real folder paths to files that actually exist.
+# Create a service file: sudo nano /etc/systemd/system/cpu-monitor.service with the content from this file
+# Reload systemd: sudo systemctl daemon-reload
+# Start: sudo systemctl start cpu-monitor
+# Enable on boot: sudo systemctl enable cpu-monitor
+# Check logs: journalctl -u cpu-monitor -f
+# Stop: sudo systemctl stop cpu-monitor

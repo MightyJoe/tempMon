@@ -1,0 +1,9 @@
+# Dependencies for the CPU temperature monitor
+
+# Main monitoring script cpu_monitor.py
+psutil>=5.9.0          # CPU temps, process info, system load
+
+# Optional: for graph-it.py (plotting historical data)
+pandas>=2.0.0          # Data loading & manipulation from CSV
+matplotlib>=3.7.0      # Plotting temperature & load over time
+
